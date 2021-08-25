@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Staatliches&display=swap");
 nav {
   display: flex;
   justify-content: space-around;
   margin-top: 1em;
 }
 h3 {
-  font-family: "Manrope", serif;
+  font-family: "Arimo-Regular", serif;
 }
 
+h2 {
+  font-family: "Arimo-Regular", serif;
+  margin: 1em;
+}
 li {
   list-style: none;
   font-family: "Manrope", serif;
@@ -16,13 +19,25 @@ li {
 a {
   text-decoration: none;
 }
-
+.price2 {
+  color: red;
+}
+strike {
+  color: black;
+}
 a:hover {
   text-decoration: none;
   background-color: white;
   box-shadow: 0px 6px 8px gray;
 }
-
+.lign {
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
+.sneakers {
+  margin: 1em;
+}
 img {
   display: block;
   max-width: 100%;
@@ -33,8 +48,16 @@ body {
   display: grid;
 }
 
+h5 {
+  font-family: "Arimo", serif;
+  font-size: 18px;
+}
+
 div {
   display: grid;
+}
+li > .listt {
+  padding: 6px black;
 }
 @media only screen and (min-width: 1000px) {
   div {
@@ -43,5 +66,20 @@ div {
   }
   .shoes {
     grid-column: 1/4;
+  }
+  .product-s {
+    display: flex;
+    margin: 2em;
+  }
+  .sneak1 {
+    display: block;
+    max-width: 40%;
+  }
+  .prinfo {
+    margin-left: 3em;
+  }
+  .listt {
+    display: flex;
+    justify-content: space-between;
   }
 }
