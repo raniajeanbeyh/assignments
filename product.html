@@ -5,56 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <head>
       <nav>
-        <a href="categories.html">Home</a>
+        <h1>Studio <span id="nb">28</span></h1>
         <a href="categories.html">Categories</a>
         <a href="productlist.html">Products</a>
       </nav>
     </head>
     <main>
-        <h2>
-            <a href="categories.html">Categories </a> >
-            <a href="productlist.html"> Sneakers </a>
-          </h2>
       <div class="product-s">
-        <section class="sneak1">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1544.webp"
-            alt="shoes1"
-          />
-        </section>
-        <section class="prinfo">
-          <h1>PUMA - Basket Bump Sneaker</h1>
-          <p>3.499,00 DKK inkl. Tax</p>
-          <h5>Product Information</h4>
-          <h4>Color</h5>
-          <p class="prod-inf">Multi-colored</p>
-          <h4>Season</h4>
-          <p class="prod-inf">Fall</p>
-          <h4>Type of shoes</h4>
-          <p class="prod-inf">Casual Sneakers</p>
-          <h4>ID</h5>
-          <p class="prod-inf">1544</p>
-          <h4>Sizes Available</h4>
-          <ul class="listt">
-            <li>38</li>
-            <li>39</li>
-            <li>40</li>
-            <li>41</li>
-          </ul>
+        <article class="sneak1">
+          <img class="imgproduct" src="" alt="PUMA - Basket Bump Sneaker" />
+        </article>
+      </div>
+      <div class="product2">
+        <article class="prinfo">
+          <h2 class="pr-name"></h2>
+          <p class="brand"></p>
+          <p class="new-price"></p>
+          <p class="origin-pr"></p>
+          <p class="new-pr"></p>
+          <h4>Product Information</h4>
+          <p class="material"></p>
+          <p class="color"></p>
+          <p class="season"></p>
+          <p class="prod-inf"></p>
+          <p class="id-nb"></p>
+
           <a href="productlist.html" class="final">Add to Bag</a>
-        </section>
+        </article>
       </div>
     </main>
+
     <footer>
-        <p class="lign">
-          Data used comes from
-          https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset
-        </p>
-      </footer>
+      <p class="lign">
+        Data used comes from :
+        <a
+          href="https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset"
+          >kaggle.com</a
+        >
+      </p>
+    </footer>
+    <script src="product.js"></script>
   </body>
 </html>

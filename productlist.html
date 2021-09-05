@@ -6,76 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product list</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Suez+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <head>
       <nav>
-        <a href="categories.html">Home</a>
+        <h1>Studio <span id="nb">28</span></h1>
+
         <a href="categories.html">Categories</a>
         <a href="productlist.html">Products</a>
       </nav>
     </head>
     <main>
-      <h2>
-        <a href="categories.html">Categories </a> >
-        <a href="productlist.html"> Sneakers </a>
-      </h2>
-      <div class="Shoes">
+      <h2 id="SEAson"></h2>
+      <template id="smallProductTemplate">
         <section class="sneakers">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1549.webp"
-            alt="shoes1"
-          />
-          <h4>Jiyu Slip On Sneaker</h4>
-          <p class="brand">PUMA</p>
-          <p class="type">Sneakers</p>
-          <p class="price">3.299,00 DKK</p>
-          <a href="product.html">Shop Product</a>
-        </section>
-        <section class="sneakers">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1547.webp"
-            alt="shoes2"
-          />
+          <img src="" alt="shoes2" />
+
           <h4>Ducati Sneaker</h4>
-          <p class="brand">PUMA</p>
           <p class="type">Sneakers</p>
+
           <div class="discounted">
-            <p class="price2">1.519,62 DKK <strike>3.999,00 DKK</strike></p>
+            <p class="new-price"></p>
+            <p id="saleTag"></p>
           </div>
+        </div>
+          <div class="o-price">3.999,00 DKK</div>
           <a href="product.html">Shop Product</a>
         </section>
-        <section class="sneakers">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1544.webp"
-            alt="shoes1"
-          />
-          <h4>Basket Bump Sneaker</h4>
-          <p class="brand">PUMA</p>
-          <p class="type">Sneakers</p>
-          <p class="price">3.499,00 DKK</p>
-          <a href="product.html">Shop Product</a>
-        </section>
-        <section class="sneakers soldout">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp"
-            alt="shoes3"
-          />
-          <h4>Cell Exsis Sneaker</h4>
-          <p class="brand">PUMA</p>
-          <p class="type">Sneakers</p>
-          <div class="discounted">
-            <p class="price2">1.079,73 DKK <strike>3.999,00 DKK</strike></p>
-          </div>
-          <a href="product.html">Shop Product</a>
-        </section>
-      </div>
+      </template>
     </main>
+    <script src="productlist.js"></script>
   </body>
-  <footer>
-    <p class="lign">
-      Data used comes from
-      https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset
-    </p>
-  </footer>
 </html>

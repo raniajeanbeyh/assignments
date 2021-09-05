@@ -5,60 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Category Selection</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <head>
       <nav>
-        <a href="categories.html">Home</a>
+        <h1>Studio <span id="nb">28</span></h1>
         <a href="categories.html">Categories</a>
-        <a href="productlist.html">Products</a>
+        <a href="productlist.html?season=Spring">Products</a>
       </nav>
     </head>
     <main>
-      <div class="Apparel">
-        <section class="Category">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1538.webp"
-            alt="top1"
-          />
-          <h3>SHOP CLOTHING</h3>
-          <ul>
-            <li><a href="productlist.html">T-Shirts</a></li>
-            <li><a href="productlist.html">Bottoms</a></li>
-            <li><a href="productlist.html">Outerwear</a></li>
+     <section class="title">
+       <h2>Shop Seasons</h2>
+     </section>
+      
+          <section class="Category">   <img src="https://kea-alt-del.dk/t7/images/webp/640/1528.webp" alt="" class="pics">  
+          <ul id="categ">
+            <li><a href="productlist.html?season=Fall">Shop Fall</a></li></ul> </section>
+          <section class="Category">   <img src="https://kea-alt-del.dk/t7/images/webp/640/1727.webp" alt="" class="pics">  
+          <ul id="categ"> <li><a href="productlist.html?season=Winter">Shop Winter</a></li></ul> </section>
+        <section class="Category"> <img src="https://kea-alt-del.dk/t7/images/webp/640/1581.webp" alt="" class="pics">  
+        <ul id="categ"><li><a href="productlist.html?season=Summer">Shop Summer</a></li></ul> </section>
+      <section class="Category">  <img src="https://kea-alt-del.dk/t7/images/webp/640/2126.webp" alt="" class="pics">  
+      <ul id="categ"><li><a href="productlist.html?season=Spring">Shop Spring</a></li></ul> </section>
+
           </ul>
         </section>
-        <section class="Category">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1554.webp"
-            alt="acc1"
-          />
-          <h3>SHOP ACCESSORIES</h3>
-          <ul>
-            <li><a href="productlist.html">Hair Accessories</a></li>
-            <li><a href="productlist.html">Bags</a></li>
-            <li><a href="productlist.html">Others</a></li>
-          </ul>
-        </section>
-        <section class="Category">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1544.webp"
-            alt="shoes1"
-          />
-          <h3>SHOP SHOES</h3>
-          <ul>
-            <li><a href="productlist.html">Running shoes</a></li>
-            <li><a href="productlist.html">Sneakers</a></li>
-          </ul>
-        </section>
-      </div>
+     
     </main>
+    <script src="productlist.js"></script>
   </body>
-  <footer>
-    <p class="lign">
-      Data used comes from
-      https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset
-    </p>
-  </footer>
 </html>
